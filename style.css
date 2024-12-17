@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    scroll-behavior: smooth;
+}
+.contact-form{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #ddd;
+}
+.title2 h2{
+    width: 100%;
+    height: 80px;
+    font-size: 2em;
+    color: steelblue;
+}
+.container{
+    width: 850px;
+    height: 500px;
+    border-radius: 5px;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.65);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:0px ;
+    overflow: hidden;
+}
+.container .left,
+.container .right{
+    width:50%;
+    height: 100%;
+    transition: all ease-in 0.4s;
+}
+.container .left{
+    background-color: steelblue;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-left: 20px;
+    gap: 15px;
+}
+.container .left h2{
+    color: white;
+    font-size: 22px;
+}
+.container .left p{
+    font-weight: 500;
+    text-wrap: wrap;
+    padding-right: 20px;
+    color: white;
+}
+.container .left button{
+    padding: 5px 25px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 12px rgba(0,0,0.35);
+    outline: none;
+    border: 1px solid #ffff;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.container .left button:hover{
+    background: orangered;
+    color: white;
+    border: 2px solid orangered;
+}
+.container .right{
+    background:whitesmoke;
+    padding: 20px 0px;width: 50%;
+    height: 100%;
+    transition: all ease-in 0.4s;
+    color: black;
+}
+.container .right .title h2{
+    color: black;
+    font-weight: 900;
+}
+.container .right form{
+    padding: 10px 50px;
+}
+.container .right form .title{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: black;
+}
+.container .right form .input-field{
+    width: 100%;
+    padding: 8px;
+    background: rgba(70, 131, 180, 0.711);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border-radius: 3px;
+    gap: 5px;
+    max-height: 100px;
+}
+.container .right form .input-field i{
+    width: 10%;
+    text-align: center;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.634);
+}
+.container .right form .input-field input{
+    width: 90%;
+    padding: 8px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: black;
+}
+.container .right form .input-field input::placeholder{
+    color: whitesmoke;
+}
+.container .right form button{
+    width: 40%;
+    margin-bottom: 10px;
+    padding: 5px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    color: navy;
+    border: 2px solid navy;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.container .right form button:hover{
+    background: orangered;
+    color: white;
+    border: 2px solid orangered;
+    font-size: 16px;
+}
+#fnField{
+    transition: all ease-in 0.4s;
+    max-height: 0px;
+    overflow: hidden;
+    padding: 0;
+}
+#cpField{
+    transition: all ease-in 0.4s;
+    max-height: 0px;
+    overflow: hidden;
+    padding: 0;
+}
