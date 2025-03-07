@@ -153,3 +153,118 @@
     overflow: hidden;
     padding: 0;
 }
+
+
+
+@media screen and (max-width: 1028px) {
+    .container {
+        width: 90%; 
+        height: auto; 
+        flex-direction: column; 
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    }
+
+    .container .left,
+    .container .right {
+        width: 100%; 
+        height: auto; 
+        padding: 30px; 
+    }
+
+    .container .left {
+        align-items: center; 
+        text-align: center;
+        padding: 20px;
+    }
+
+    .container .right {
+        padding: 20px;
+    }
+
+    .container .right form {
+        padding: 10px 30px;
+    }
+
+    .container .right form .input-field {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .container .right form button {
+        width: 100%; 
+        padding: 10px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .contact-form {
+        height: auto;
+        padding: 20px;
+    }
+
+    .title2 h2 {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .container {
+        width: 95%; 
+        flex-direction: column; 
+        height: auto; 
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    .container .left {
+        text-align: center;
+        padding: 20px;
+        align-items: center;
+    }
+
+    .container .left h2 {
+        font-size: 18px;
+    }
+
+    .container .left p {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .container .left button {
+        font-size: 14px;
+        padding: 8px 20px;
+    }
+
+    .container .right {
+        padding: 20px;
+    }
+
+    .container .right form {
+        padding: 15px;
+    }
+
+    .container .right form .title {
+        height: auto;
+        text-align: center;
+    }
+
+    .container .right form .input-field {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .container .right form .input-field i {
+        font-size: 16px;
+    }
+
+    .container .right form .input-field input {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .container .right form button {
+        width: 100%;
+        padding: 12px;
+        font-size: 14px;
+    }
+}
